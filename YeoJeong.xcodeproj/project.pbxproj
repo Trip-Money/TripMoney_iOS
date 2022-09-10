@@ -16,6 +16,7 @@
 		385A30F828CA55ED00A648A0 /* YeoJeongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A30F728CA55ED00A648A0 /* YeoJeongUITests.swift */; };
 		385A30FA28CA55ED00A648A0 /* YeoJeongUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A30F928CA55ED00A648A0 /* YeoJeongUITestsLaunchTests.swift */; };
 		385A310828CA58EF00A648A0 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 385A310728CA58EF00A648A0 /* .swiftlint.yml */; };
+		385A311228CC887400A648A0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A311128CC887400A648A0 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		385A30F728CA55ED00A648A0 /* YeoJeongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeoJeongUITests.swift; sourceTree = "<group>"; };
 		385A30F928CA55ED00A648A0 /* YeoJeongUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeoJeongUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		385A310728CA58EF00A648A0 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		385A311128CC887400A648A0 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		385A30D528CA55EC00A648A0 /* YeoJeong */ = {
 			isa = PBXGroup;
 			children = (
+				385A310E28CC885400A648A0 /* Global */,
 				385A30D628CA55EC00A648A0 /* AppDelegate.swift */,
 				385A30D828CA55EC00A648A0 /* SceneDelegate.swift */,
 				385A30DA28CA55EC00A648A0 /* ViewController.swift */,
@@ -125,6 +128,22 @@
 				385A30F928CA55ED00A648A0 /* YeoJeongUITestsLaunchTests.swift */,
 			);
 			path = YeoJeongUITests;
+			sourceTree = "<group>";
+		};
+		385A310E28CC885400A648A0 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				385A310F28CC885900A648A0 /* Base */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		385A310F28CC885900A648A0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				385A311128CC887400A648A0 /* BaseViewController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				385A30DB28CA55EC00A648A0 /* ViewController.swift in Sources */,
+				385A311228CC887400A648A0 /* BaseViewController.swift in Sources */,
 				385A30D728CA55EC00A648A0 /* AppDelegate.swift in Sources */,
 				385A30D928CA55EC00A648A0 /* SceneDelegate.swift in Sources */,
 			);

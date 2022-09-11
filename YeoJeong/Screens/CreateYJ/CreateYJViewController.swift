@@ -7,7 +7,29 @@
 
 import UIKit
 
-class CreateYJViewController: UIViewController {
+class CreateYJViewController: BaseViewController {
+
+    // MARK: - view
+
+    private let stackView: UIStackView = {
+
+        return $0
+    }(UIStackView())
+
+    private let tripLocationView: UIView = {
+
+        return $0
+    }(UIView())
+
+    private let tripDateView: UIView = {
+
+        return $0
+    }(UIView())
+
+    private let tripNameView: UIView = {
+
+        return $0
+    }(UIView())
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,14 +37,4 @@ class CreateYJViewController: UIViewController {
         view.backgroundColor = .red
         // Do any additional setup after loading the view.
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 }

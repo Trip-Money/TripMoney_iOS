@@ -46,4 +46,14 @@ class ExpandableView: UIView {
         return shouldCollapse ? "Show Less" : "Show More"
     }
 
+    // MARK: - init
+
+    override init(frame: CGRect) {
+       super.init(frame: frame)
+        setupLayout()
+   }
+
+   required init?(coder: NSCoder) {
+       super.init(coder: coder)
+   }
 }

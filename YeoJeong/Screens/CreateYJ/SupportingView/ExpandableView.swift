@@ -88,4 +88,30 @@ class ExpandableView: UIView {
     }
 }
 
+extension ExpandableView {
+
+    //        contentView.addSubviews(titleView, cellExpandButton, cellNameLabel, dropdownView)
+    //        contentView.frame = bounds
+    //        contentView.autoresizingMask = [.flexibleWidth, .flexibleHeight, .flexibleBottomMargin]
+    //        addSubview(contentView)
+
+    func setupLayout() {
+        contentView.addSubviews(titleView, cellExpandButton, cellNameLabel, dropdownView)
+        contentView.frame = bounds
+        contentView.autoresizingMask = [.flexibleWidth, .flexibleHeight, .flexibleBottomMargin]
+        addSubview(contentView)
+
+        titleView.snp.makeConstraints {
+            $0.edges.equalToSuperview()
+        }
+        cellExpandButton.snp.makeConstraints {
+            $0.top.left.right.bottom.equalToSuperview()
+        }
+        cellNameLabel.snp.makeConstraints {
+            $0.top.left.right.bottom.equalToSuperview().inset(24.0)
+        }
+        dropdownView.snp.makeConstraints {
+            $0.top.equalToSuperview()
+        }
+    }
 }

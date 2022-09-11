@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		385A30D728CA55EC00A648A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A30D628CA55EC00A648A0 /* AppDelegate.swift */; };
 		385A30D928CA55EC00A648A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A30D828CA55EC00A648A0 /* SceneDelegate.swift */; };
-		385A30DB28CA55EC00A648A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A30DA28CA55EC00A648A0 /* ViewController.swift */; };
 		385A30E028CA55ED00A648A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385A30DF28CA55ED00A648A0 /* Assets.xcassets */; };
 		385A30E328CA55ED00A648A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385A30E128CA55ED00A648A0 /* LaunchScreen.storyboard */; };
 		385A30EE28CA55ED00A648A0 /* YeoJeongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A30ED28CA55ED00A648A0 /* YeoJeongTests.swift */; };
@@ -18,6 +17,22 @@
 		385A310828CA58EF00A648A0 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 385A310728CA58EF00A648A0 /* .swiftlint.yml */; };
 		385A311228CC887400A648A0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A311128CC887400A648A0 /* BaseViewController.swift */; };
 		385A311528CD8D3A00A648A0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 385A311428CD8D3A00A648A0 /* SnapKit */; };
+		385A312228CE131000A648A0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A312128CE131000A648A0 /* Model.swift */; };
+		385A312428CE132C00A648A0 /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A312328CE132C00A648A0 /* UIFont+.swift */; };
+		385A312628CE137100A648A0 /* ImageLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A312528CE137100A648A0 /* ImageLiteral.swift */; };
+		385A312828CE142900A648A0 /* AMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A312728CE142900A648A0 /* AMButton.swift */; };
+		385A312B28CE148500A648A0 /* YJListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A312A28CE148500A648A0 /* YJListViewController.swift */; };
+		385A312D28CE149400A648A0 /* CreateYJViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A312C28CE149400A648A0 /* CreateYJViewController.swift */; };
+		385A312F28CE15A000A648A0 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A312E28CE15A000A648A0 /* UIColor+.swift */; };
+		385A313128CE15B200A648A0 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A313028CE15B200A648A0 /* UIViewController+.swift */; };
+		385A313328CE15CD00A648A0 /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A313228CE15CD00A648A0 /* UIButton+.swift */; };
+		385A313528CE15D800A648A0 /* UICollectionView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A313428CE15D800A648A0 /* UICollectionView+.swift */; };
+		385A313728CE15E400A648A0 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A313628CE15E400A648A0 /* Date+.swift */; };
+		385A313928CE15FC00A648A0 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A313828CE15FC00A648A0 /* UIView+.swift */; };
+		385A313B28CE160300A648A0 /* UIStackView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A313A28CE160300A648A0 /* UIStackView+.swift */; };
+		385A313D28CE161900A648A0 /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A313C28CE161900A648A0 /* UILabel+.swift */; };
+		385A313F28CE163900A648A0 /* UserDefaults+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A313E28CE163900A648A0 /* UserDefaults+.swift */; };
+		385A314128CE164000A648A0 /* DateComponent+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A314028CE164000A648A0 /* DateComponent+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +56,6 @@
 		385A30D328CA55EC00A648A0 /* YeoJeong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YeoJeong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		385A30D628CA55EC00A648A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		385A30D828CA55EC00A648A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		385A30DA28CA55EC00A648A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		385A30DF28CA55ED00A648A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		385A30E228CA55ED00A648A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		385A30E428CA55ED00A648A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,6 +66,22 @@
 		385A30F928CA55ED00A648A0 /* YeoJeongUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeoJeongUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		385A310728CA58EF00A648A0 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		385A311128CC887400A648A0 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		385A312128CE131000A648A0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		385A312328CE132C00A648A0 /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
+		385A312528CE137100A648A0 /* ImageLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLiteral.swift; sourceTree = "<group>"; };
+		385A312728CE142900A648A0 /* AMButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMButton.swift; sourceTree = "<group>"; };
+		385A312A28CE148500A648A0 /* YJListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJListViewController.swift; sourceTree = "<group>"; };
+		385A312C28CE149400A648A0 /* CreateYJViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateYJViewController.swift; sourceTree = "<group>"; };
+		385A312E28CE15A000A648A0 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		385A313028CE15B200A648A0 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		385A313228CE15CD00A648A0 /* UIButton+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
+		385A313428CE15D800A648A0 /* UICollectionView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+.swift"; sourceTree = "<group>"; };
+		385A313628CE15E400A648A0 /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		385A313828CE15FC00A648A0 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		385A313A28CE160300A648A0 /* UIStackView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+.swift"; sourceTree = "<group>"; };
+		385A313C28CE161900A648A0 /* UILabel+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+.swift"; sourceTree = "<group>"; };
+		385A313E28CE163900A648A0 /* UserDefaults+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+.swift"; sourceTree = "<group>"; };
+		385A314028CE164000A648A0 /* DateComponent+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateComponent+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,13 +134,9 @@
 		385A30D528CA55EC00A648A0 /* YeoJeong */ = {
 			isa = PBXGroup;
 			children = (
+				385A311E28CE112C00A648A0 /* Screens */,
+				385A311C28CE112100A648A0 /* Network */,
 				385A310E28CC885400A648A0 /* Global */,
-				385A30D628CA55EC00A648A0 /* AppDelegate.swift */,
-				385A30D828CA55EC00A648A0 /* SceneDelegate.swift */,
-				385A30DA28CA55EC00A648A0 /* ViewController.swift */,
-				385A30DF28CA55ED00A648A0 /* Assets.xcassets */,
-				385A30E128CA55ED00A648A0 /* LaunchScreen.storyboard */,
-				385A30E428CA55ED00A648A0 /* Info.plist */,
 			);
 			path = YeoJeong;
 			sourceTree = "<group>";
@@ -136,6 +162,11 @@
 			isa = PBXGroup;
 			children = (
 				385A310F28CC885900A648A0 /* Base */,
+				385A311628CE108F00A648A0 /* Extension */,
+				385A311728CE109600A648A0 /* Literal */,
+				385A311828CE10A100A648A0 /* Resource */,
+				385A311928CE10A700A648A0 /* Supports */,
+				385A311A28CE10AD00A648A0 /* UIComponent */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -146,6 +177,100 @@
 				385A311128CC887400A648A0 /* BaseViewController.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		385A311628CE108F00A648A0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				385A312328CE132C00A648A0 /* UIFont+.swift */,
+				385A312E28CE15A000A648A0 /* UIColor+.swift */,
+				385A313428CE15D800A648A0 /* UICollectionView+.swift */,
+				385A313228CE15CD00A648A0 /* UIButton+.swift */,
+				385A313028CE15B200A648A0 /* UIViewController+.swift */,
+				385A313828CE15FC00A648A0 /* UIView+.swift */,
+				385A313A28CE160300A648A0 /* UIStackView+.swift */,
+				385A313C28CE161900A648A0 /* UILabel+.swift */,
+				385A313E28CE163900A648A0 /* UserDefaults+.swift */,
+				385A313628CE15E400A648A0 /* Date+.swift */,
+				385A314028CE164000A648A0 /* DateComponent+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		385A311728CE109600A648A0 /* Literal */ = {
+			isa = PBXGroup;
+			children = (
+				385A312528CE137100A648A0 /* ImageLiteral.swift */,
+			);
+			path = Literal;
+			sourceTree = "<group>";
+		};
+		385A311828CE10A100A648A0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				385A30DF28CA55ED00A648A0 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		385A311928CE10A700A648A0 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				385A30E428CA55ED00A648A0 /* Info.plist */,
+				385A30E128CA55ED00A648A0 /* LaunchScreen.storyboard */,
+				385A30D828CA55EC00A648A0 /* SceneDelegate.swift */,
+				385A30D628CA55EC00A648A0 /* AppDelegate.swift */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		385A311A28CE10AD00A648A0 /* UIComponent */ = {
+			isa = PBXGroup;
+			children = (
+				385A312728CE142900A648A0 /* AMButton.swift */,
+			);
+			path = UIComponent;
+			sourceTree = "<group>";
+		};
+		385A311C28CE112100A648A0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				385A311D28CE112700A648A0 /* Model */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		385A311D28CE112700A648A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				385A312128CE131000A648A0 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		385A311E28CE112C00A648A0 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				385A312028CE114200A648A0 /* CreateYJ */,
+				385A311F28CE113900A648A0 /* YJList */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		385A311F28CE113900A648A0 /* YJList */ = {
+			isa = PBXGroup;
+			children = (
+				385A312A28CE148500A648A0 /* YJListViewController.swift */,
+			);
+			path = YJList;
+			sourceTree = "<group>";
+		};
+		385A312028CE114200A648A0 /* CreateYJ */ = {
+			isa = PBXGroup;
+			children = (
+				385A312C28CE149400A648A0 /* CreateYJViewController.swift */,
+			);
+			path = CreateYJ;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,10 +432,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				385A30DB28CA55EC00A648A0 /* ViewController.swift in Sources */,
+				385A313528CE15D800A648A0 /* UICollectionView+.swift in Sources */,
+				385A314128CE164000A648A0 /* DateComponent+.swift in Sources */,
+				385A312228CE131000A648A0 /* Model.swift in Sources */,
+				385A312D28CE149400A648A0 /* CreateYJViewController.swift in Sources */,
 				385A311228CC887400A648A0 /* BaseViewController.swift in Sources */,
+				385A313128CE15B200A648A0 /* UIViewController+.swift in Sources */,
+				385A312B28CE148500A648A0 /* YJListViewController.swift in Sources */,
+				385A313D28CE161900A648A0 /* UILabel+.swift in Sources */,
+				385A312828CE142900A648A0 /* AMButton.swift in Sources */,
+				385A313B28CE160300A648A0 /* UIStackView+.swift in Sources */,
+				385A313728CE15E400A648A0 /* Date+.swift in Sources */,
+				385A313F28CE163900A648A0 /* UserDefaults+.swift in Sources */,
+				385A312628CE137100A648A0 /* ImageLiteral.swift in Sources */,
+				385A313928CE15FC00A648A0 /* UIView+.swift in Sources */,
+				385A313328CE15CD00A648A0 /* UIButton+.swift in Sources */,
 				385A30D728CA55EC00A648A0 /* AppDelegate.swift in Sources */,
+				385A312428CE132C00A648A0 /* UIFont+.swift in Sources */,
 				385A30D928CA55EC00A648A0 /* SceneDelegate.swift in Sources */,
+				385A312F28CE15A000A648A0 /* UIColor+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,7 +621,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 82DRSFKFS9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = YeoJeong/Info.plist;
+				INFOPLIST_FILE = YeoJeong/Global/Supports/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -508,7 +648,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 82DRSFKFS9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = YeoJeong/Info.plist;
+				INFOPLIST_FILE = YeoJeong/Global/Supports/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

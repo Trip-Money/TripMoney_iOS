@@ -33,6 +33,7 @@
 		385A313D28CE161900A648A0 /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A313C28CE161900A648A0 /* UILabel+.swift */; };
 		385A313F28CE163900A648A0 /* UserDefaults+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A313E28CE163900A648A0 /* UserDefaults+.swift */; };
 		385A314128CE164000A648A0 /* DateComponent+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A314028CE164000A648A0 /* DateComponent+.swift */; };
+		385A314428CE55DD00A648A0 /* ExpandableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A314328CE55DD00A648A0 /* ExpandableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		385A313C28CE161900A648A0 /* UILabel+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+.swift"; sourceTree = "<group>"; };
 		385A313E28CE163900A648A0 /* UserDefaults+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+.swift"; sourceTree = "<group>"; };
 		385A314028CE164000A648A0 /* DateComponent+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateComponent+.swift"; sourceTree = "<group>"; };
+		385A314328CE55DD00A648A0 /* ExpandableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,9 +270,18 @@
 		385A312028CE114200A648A0 /* CreateYJ */ = {
 			isa = PBXGroup;
 			children = (
+				385A314228CE551600A648A0 /* SupportingView */,
 				385A312C28CE149400A648A0 /* CreateYJViewController.swift */,
 			);
 			path = CreateYJ;
+			sourceTree = "<group>";
+		};
+		385A314228CE551600A648A0 /* SupportingView */ = {
+			isa = PBXGroup;
+			children = (
+				385A314328CE55DD00A648A0 /* ExpandableView.swift */,
+			);
+			path = SupportingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,6 +445,7 @@
 			files = (
 				385A313528CE15D800A648A0 /* UICollectionView+.swift in Sources */,
 				385A314128CE164000A648A0 /* DateComponent+.swift in Sources */,
+				385A314428CE55DD00A648A0 /* ExpandableView.swift in Sources */,
 				385A312228CE131000A648A0 /* Model.swift in Sources */,
 				385A312D28CE149400A648A0 /* CreateYJViewController.swift in Sources */,
 				385A311228CC887400A648A0 /* BaseViewController.swift in Sources */,

@@ -56,4 +56,36 @@ class ExpandableView: UIView {
    required init?(coder: NSCoder) {
        super.init(coder: coder)
    }
+
+    // MARK: - private method
+
+    private func animateView(isCollapse: Bool,
+                             buttonText: String,
+                             heighConstraint: Double) {
+
+        UIView.animate(withDuration: 0.5) {
+            self.shouldCollapse = isCollapse
+            self.mainHeightConstraint.constant = CGFloat(heighConstraint)
+            self.cellExpandButton.setTitle(self.buttonTitle, for: .normal)
+            self.layoutIfNeeded()
+            self.superViewCompletion?() //?
+        }
+    }
+
+    // MARK: - selectors
+
+    @objc
+    func didButtonTap() {
+        if shouldCollapse {
+            animateView(isCollapse: false,
+                        buttonText: buttonTitle,
+                        heighConstraint: 0)
+        } else {
+            animateView(isCollapse: true,
+                        buttonText: buttonTitle,
+                        heighConstraint: 100)
+        }
+    }
+}
+
 }

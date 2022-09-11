@@ -36,4 +36,14 @@ class ExpandableView: UIView {
         $0.backgroundColor = .red
         return $0
     }(UIImageView())
+
+    // MARK: - property
+
+    private var shouldCollapse = false
+    private var mainHeightConstraint = NSLayoutConstraint() //?
+    var superViewCompletion: (() -> Void)? //?
+    var buttonTitle: String {
+        return shouldCollapse ? "Show Less" : "Show More"
+    }
+
 }

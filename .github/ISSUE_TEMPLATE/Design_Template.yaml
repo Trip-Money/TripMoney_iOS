@@ -1,0 +1,22 @@
+name: Design Template
+description: UI관련 작업을 추가할 때 쓰는 템플릿
+title: "[Design] 만들 ui title"
+labels: ["🎨UI"]
+
+body:
+  - type: textarea
+    id: feature-contents
+    attributes:
+      label: UI 설명
+      description: 작업할 화면에 대한 설명을 적어주세요.
+      placeholder: ex. 여정을 생성하는 화면입니다.
+    validations:
+      required: true
+  - type: textarea
+    id: ui-image
+    attributes:
+      label: UI 이미지 (hifi)
+      description: 작업할 UI 이미지를 넣어주세요.
+      placeholder: ex.이미지를 복붙하세요.
+    validations:
+      required: true

@@ -9,48 +9,27 @@ import UIKit
 
 import SnapKit
 
-class CreateYJViewController: BaseViewController {
+final class CreateYJViewController: BaseViewController {
 
-    // MARK: - view
+    // MARK: - View
 
-    private let stackView: UIStackView = {
-        $0.axis = .vertical
-        $0.alignment = .fill
-        $0.distribution = .equalSpacing
-        $0.spacing = 5.0
-        let first = ExpandableView()
-        let second = ExpandableView()
+    private lazy var collectionView: UICollectionView = {
+        let layout = UICollectionViewFlowLayout()
+        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
+        collectionView.delegate = self
+        collectionView.dataSource = self
+        collectionView.register(ExpandableCell.self, forCellWithReuseIdentifier: "expandableCell")
+        collectionView.register(ExpandableCell.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "TodayCollectionReusableView")
 
-        $0.addArrangedSubviews(first, second)
+        return collectionView
+    }()
 
-        return $0
-    }(UIStackView())
-
-    private let tripLocationView: UIView = {
-
-        return $0
-    }(UIView())
-
-    private let tripDateView: UIView = {
-
-        return $0
-    }(UIView())
-
-    private let tripNameView: UIView = {
-
-        return $0
-    }(UIView())
-
-    // MARK: - life cycle
+    // MARK: - Life Cycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
-    override func setupLayout() {
-        view.addSubview(stackView)
-        stackView.snp.makeConstraints {
+        view.addSubview(collectionView)
+        collectionView.snp.makeConstraints {
             $0.edges.equalToSuperview()
         }
     }

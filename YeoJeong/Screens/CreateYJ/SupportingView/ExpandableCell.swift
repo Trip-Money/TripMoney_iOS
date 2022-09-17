@@ -13,4 +13,10 @@ class ExpandableCell: UICollectionViewCell {
 
     // MARK: - view
 
+    private var expandedConstraint: Constraint!
+    private var collapsedConstraint: Constraint!
+
+    private let mainContainer = UIView()
+    private let topContainer = UIView()
+    private let bottomContainer = UIView()
 }

@@ -11,12 +11,13 @@ import SnapKit
 
 class ExpandableCell: UICollectionViewCell {
 
-    // MARK: - view
+    // MARK: - Initializer
 
-    private var expandedConstraint: Constraint!
-    private var collapsedConstraint: Constraint!
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+    }
 
-    private let mainContainer = UIView()
-    private let topContainer = UIView()
-    private let bottomContainer = UIView()
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+    }
 }

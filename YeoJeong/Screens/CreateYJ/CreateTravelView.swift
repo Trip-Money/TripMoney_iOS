@@ -20,6 +20,8 @@ class CreateTravelView: BaseViewController {
         return $0
     }(UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout()))
 
+    private let expandableCell = ExpandableCell()
+    
     // MARK: - Life Cycle
 
     override func viewDidLoad() {

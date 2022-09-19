@@ -268,17 +268,9 @@
 		385A312028CE114200A648A0 /* CreateYJ */ = {
 			isa = PBXGroup;
 			children = (
-				385A314228CE551600A648A0 /* SupportingView */,
 				385A312C28CE149400A648A0 /* CreateTravelView.swift */,
 			);
 			path = CreateYJ;
-			sourceTree = "<group>";
-		};
-		385A314228CE551600A648A0 /* SupportingView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SupportingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

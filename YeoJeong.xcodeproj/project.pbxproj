@@ -22,7 +22,7 @@
 		385A312628CE137100A648A0 /* ImageLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A312528CE137100A648A0 /* ImageLiteral.swift */; };
 		385A312828CE142900A648A0 /* AMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A312728CE142900A648A0 /* AMButton.swift */; };
 		385A312B28CE148500A648A0 /* YJListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A312A28CE148500A648A0 /* YJListViewController.swift */; };
-		385A312D28CE149400A648A0 /* CreateYJViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A312C28CE149400A648A0 /* CreateYJViewController.swift */; };
+		385A312D28CE149400A648A0 /* CreateTravelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A312C28CE149400A648A0 /* CreateTravelView.swift */; };
 		385A312F28CE15A000A648A0 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A312E28CE15A000A648A0 /* UIColor+.swift */; };
 		385A313128CE15B200A648A0 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A313028CE15B200A648A0 /* UIViewController+.swift */; };
 		385A313328CE15CD00A648A0 /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A313228CE15CD00A648A0 /* UIButton+.swift */; };
@@ -72,7 +72,7 @@
 		385A312528CE137100A648A0 /* ImageLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLiteral.swift; sourceTree = "<group>"; };
 		385A312728CE142900A648A0 /* AMButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMButton.swift; sourceTree = "<group>"; };
 		385A312A28CE148500A648A0 /* YJListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJListViewController.swift; sourceTree = "<group>"; };
-		385A312C28CE149400A648A0 /* CreateYJViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateYJViewController.swift; sourceTree = "<group>"; };
+		385A312C28CE149400A648A0 /* CreateTravelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTravelView.swift; sourceTree = "<group>"; };
 		385A312E28CE15A000A648A0 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		385A313028CE15B200A648A0 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 		385A313228CE15CD00A648A0 /* UIButton+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
@@ -271,7 +271,7 @@
 			isa = PBXGroup;
 			children = (
 				385A314228CE551600A648A0 /* SupportingView */,
-				385A312C28CE149400A648A0 /* CreateYJViewController.swift */,
+				385A312C28CE149400A648A0 /* CreateTravelView.swift */,
 			);
 			path = CreateYJ;
 			sourceTree = "<group>";
@@ -447,7 +447,7 @@
 				385A314128CE164000A648A0 /* DateComponent+.swift in Sources */,
 				385A314428CE55DD00A648A0 /* ExpandableCell.swift in Sources */,
 				385A312228CE131000A648A0 /* Model.swift in Sources */,
-				385A312D28CE149400A648A0 /* CreateYJViewController.swift in Sources */,
+				385A312D28CE149400A648A0 /* CreateTravelView.swift in Sources */,
 				385A311228CC887400A648A0 /* BaseViewController.swift in Sources */,
 				385A313128CE15B200A648A0 /* UIViewController+.swift in Sources */,
 				385A312B28CE148500A648A0 /* YJListViewController.swift in Sources */,

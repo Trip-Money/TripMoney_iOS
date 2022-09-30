@@ -35,6 +35,7 @@
 		385A314128CE164000A648A0 /* DateComponent+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A314028CE164000A648A0 /* DateComponent+.swift */; };
 		7B2FB14228E6ECA000748D1C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2FB14128E6ECA000748D1C /* MainView.swift */; };
 		7B2FB14528E6FC0600748D1C /* YJListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2FB14428E6FC0600748D1C /* YJListCell.swift */; };
+		7B2FB14728E6FEC500748D1C /* YJData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2FB14628E6FEC500748D1C /* YJData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		385A314028CE164000A648A0 /* DateComponent+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateComponent+.swift"; sourceTree = "<group>"; };
 		7B2FB14128E6ECA000748D1C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		7B2FB14428E6FC0600748D1C /* YJListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJListCell.swift; sourceTree = "<group>"; };
+		7B2FB14628E6FEC500748D1C /* YJData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				385A312128CE131000A648A0 /* Model.swift */,
+				7B2FB14628E6FEC500748D1C /* YJData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -456,6 +459,7 @@
 			files = (
 				385A313528CE15D800A648A0 /* UICollectionView+.swift in Sources */,
 				385A314128CE164000A648A0 /* DateComponent+.swift in Sources */,
+				7B2FB14728E6FEC500748D1C /* YJData.swift in Sources */,
 				385A312228CE131000A648A0 /* Model.swift in Sources */,
 				385A312D28CE149400A648A0 /* CreateYJViewController.swift in Sources */,
 				7B2FB14528E6FC0600748D1C /* YJListCell.swift in Sources */,

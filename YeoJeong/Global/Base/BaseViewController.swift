@@ -27,7 +27,7 @@ class BaseViewController: UIViewController {
     }
 
     func setupAttributes() {
-        // Override Attributes
+        view.backgroundColor = UIColor.systemBackground
     }
 
     func setupLayout() {

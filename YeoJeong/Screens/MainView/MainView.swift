@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SnapKit
 
 class MainView: BaseViewController {
     
@@ -38,7 +39,35 @@ class MainView: BaseViewController {
         ]
     }
 
+    override func setupAttributes() {
+        super.setupAttributes()
+        setupCollectionView()
+    }
+
+    override func setupLayout() {
+        super.setupLayout()
+        view.addSubview(segmentControl)
+        segmentControl.snp.makeConstraints {
+            $0.top.equalTo(view.safeAreaLayoutGuide).inset(10)
+            $0.left.equalTo(view.safeAreaLayoutGuide).inset(16)
+            $0.right.equalTo(view.safeAreaLayoutGuide).inset(16)
+        }
+        view.addSubview(collectionView)
+        collectionView.snp.makeConstraints {
+            $0.top.equalTo(self.segmentControl.snp.bottom).offset(20)
+            $0.left.equalTo(view.safeAreaLayoutGuide)
+            $0.right.equalTo(view.safeAreaLayoutGuide)
+            $0.bottom.equalTo(view)
+        }
+
+    }
     
+    private func setupCollectionView() {
+        collectionView.register(YJListCell.self, forCellWithReuseIdentifier: YJListCell.identifier)
+        collectionView.delegate = self
+        collectionView.dataSource = self
+    }
+
     @objc private func tapAddButton(_ sender: Any) {
 //        let addModel = AddNewCategory()
 //        addModel.categoryNameDelegate = self
@@ -63,5 +92,38 @@ class MainView: BaseViewController {
           break
        }
     }
-    
 }
+
+extension MainView: UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return tempYJData.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: YJListCell.identifier, for: indexPath) as! YJListCell
+        cell.yjTitle.text = tempYJData[indexPath.row].title
+        cell.yjDate.text = tempYJData[indexPath.row].date
+        cell.backgroundView = UIImageView(image: UIImage(named: tempYJData[indexPath.row].image))
+        cell.clipsToBounds = true
+        return cell
+    }
+}
+
+extension MainView: UICollectionViewDelegate {
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+       print("User tapped on item \(indexPath.row)")
+    }
+}
+//
+
+extension MainView: UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+//        return CGSize(width: UIScreen.main.bounds.width - 32, height: 170)
+        let width = collectionView.frame.width - 30
+//        let height = 150
+        return CGSize(width: width, height: 150)
+        
+    }
+}
+

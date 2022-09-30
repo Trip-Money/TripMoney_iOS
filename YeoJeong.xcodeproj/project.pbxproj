@@ -34,6 +34,7 @@
 		385A313F28CE163900A648A0 /* UserDefaults+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A313E28CE163900A648A0 /* UserDefaults+.swift */; };
 		385A314128CE164000A648A0 /* DateComponent+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A314028CE164000A648A0 /* DateComponent+.swift */; };
 		7B2FB14228E6ECA000748D1C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2FB14128E6ECA000748D1C /* MainView.swift */; };
+		7B2FB14528E6FC0600748D1C /* YJListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2FB14428E6FC0600748D1C /* YJListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		385A313E28CE163900A648A0 /* UserDefaults+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+.swift"; sourceTree = "<group>"; };
 		385A314028CE164000A648A0 /* DateComponent+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateComponent+.swift"; sourceTree = "<group>"; };
 		7B2FB14128E6ECA000748D1C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7B2FB14428E6FC0600748D1C /* YJListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,9 +281,18 @@
 		7B2FB14028E6EC7100748D1C /* MainView */ = {
 			isa = PBXGroup;
 			children = (
+				7B2FB14328E6FB3400748D1C /* SupportingView */,
 				7B2FB14128E6ECA000748D1C /* MainView.swift */,
 			);
 			path = MainView;
+			sourceTree = "<group>";
+		};
+		7B2FB14328E6FB3400748D1C /* SupportingView */ = {
+			isa = PBXGroup;
+			children = (
+				7B2FB14428E6FC0600748D1C /* YJListCell.swift */,
+			);
+			path = SupportingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -447,6 +458,7 @@
 				385A314128CE164000A648A0 /* DateComponent+.swift in Sources */,
 				385A312228CE131000A648A0 /* Model.swift in Sources */,
 				385A312D28CE149400A648A0 /* CreateYJViewController.swift in Sources */,
+				7B2FB14528E6FC0600748D1C /* YJListCell.swift in Sources */,
 				385A311228CC887400A648A0 /* BaseViewController.swift in Sources */,
 				385A313128CE15B200A648A0 /* UIViewController+.swift in Sources */,
 				385A312B28CE148500A648A0 /* YJListViewController.swift in Sources */,

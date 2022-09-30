@@ -33,6 +33,7 @@
 		385A313D28CE161900A648A0 /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A313C28CE161900A648A0 /* UILabel+.swift */; };
 		385A313F28CE163900A648A0 /* UserDefaults+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A313E28CE163900A648A0 /* UserDefaults+.swift */; };
 		385A314128CE164000A648A0 /* DateComponent+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A314028CE164000A648A0 /* DateComponent+.swift */; };
+		7B2FB14228E6ECA000748D1C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2FB14128E6ECA000748D1C /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		385A313C28CE161900A648A0 /* UILabel+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+.swift"; sourceTree = "<group>"; };
 		385A313E28CE163900A648A0 /* UserDefaults+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+.swift"; sourceTree = "<group>"; };
 		385A314028CE164000A648A0 /* DateComponent+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateComponent+.swift"; sourceTree = "<group>"; };
+		7B2FB14128E6ECA000748D1C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +253,7 @@
 		385A311E28CE112C00A648A0 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				7B2FB14028E6EC7100748D1C /* MainView */,
 				385A312028CE114200A648A0 /* CreateYJ */,
 				385A311F28CE113900A648A0 /* YJList */,
 			);
@@ -271,6 +274,14 @@
 				385A312C28CE149400A648A0 /* CreateYJViewController.swift */,
 			);
 			path = CreateYJ;
+			sourceTree = "<group>";
+		};
+		7B2FB14028E6EC7100748D1C /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				7B2FB14128E6ECA000748D1C /* MainView.swift */,
+			);
+			path = MainView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -445,6 +456,7 @@
 				385A313728CE15E400A648A0 /* Date+.swift in Sources */,
 				385A313F28CE163900A648A0 /* UserDefaults+.swift in Sources */,
 				385A312628CE137100A648A0 /* ImageLiteral.swift in Sources */,
+				7B2FB14228E6ECA000748D1C /* MainView.swift in Sources */,
 				385A313928CE15FC00A648A0 /* UIView+.swift in Sources */,
 				385A313328CE15CD00A648A0 /* UIButton+.swift in Sources */,
 				385A30D728CA55EC00A648A0 /* AppDelegate.swift in Sources */,

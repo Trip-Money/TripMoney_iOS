@@ -14,7 +14,15 @@ class MainView: BaseViewController {
         $0.backgroundColor = .systemGray
         return $0
     }(UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout()))
-    
+
+    lazy var segmentControl: UISegmentedControl = {
+//        let segmentItems = ["현재 여정", "지난 여정"]
+//        $0.frame = CGRect(x: 10, y: 250, width: (self.view.frame.width - 20), height: 50)
+        $0.addTarget(self, action: #selector(segmentControl(_:)), for: .valueChanged)
+        $0.selectedSegmentIndex = 0
+        return $0
+    }(UISegmentedControl(items: ["현재 여정", "지난 여정"]))
+
     // MARK: - life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +38,7 @@ class MainView: BaseViewController {
         ]
     }
 
+    
     @objc private func tapAddButton(_ sender: Any) {
 //        let addModel = AddNewCategory()
 //        addModel.categoryNameDelegate = self
@@ -41,4 +50,18 @@ class MainView: BaseViewController {
 //                }
 //                present(nav, animated: true, completion: nil)
     }
+
+    @objc func segmentControl(_ segmentedControl: UISegmentedControl) {
+       switch (segmentedControl.selectedSegmentIndex) {
+          case 0:
+           //코드입력
+          break
+          case 1:
+           //코드입력
+          break
+          default:
+          break
+       }
+    }
+    
 }
